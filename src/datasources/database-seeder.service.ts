@@ -83,6 +83,15 @@ export class DatabaseSeederService implements OnModuleInit {
       };
 
       // ============================================
+      // Seed Tiendas (Identificación)
+      // ============================================
+      await this.dataSource.query(`
+        INSERT INTO tiendas (id, "codigoInterno", "nombreComercial", "responsableUsuarioId", rut, direccion, telefono, "paisId", "estadoCaptacion", "createdAt", "updatedAt") VALUES
+        ('${seededIds.tienda1}', 'TDA001', 'Tienda El Vecino', '11111111-1111-4111-8111-111111111111', '900123456-1', 'Calle 10 # 20-30', '+57 3001234567', 'aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa', 'habilitadoBasico', NOW(), NOW()),
+        ('${seededIds.tienda2}', 'TDA002', 'Abarrotes Central', '22222222-2222-4222-8222-222222222222', 'XAXX010101000', 'Av. Reforma 100', '+52 5512345678', 'bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb', 'habilitadoBasico', NOW(), NOW())
+      `);
+
+      // ============================================
       // Seed Items de Inventario
       // ============================================
       await this.dataSource.query(`

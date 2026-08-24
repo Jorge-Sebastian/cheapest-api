@@ -1,0 +1,204 @@
+{
+  "main": {
+    "id": "4af5ab0c62c6704e",
+    "type": "split",
+    "children": [
+      {
+        "id": "876bbbaf55e1a223",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9d378b537ce043de",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Respuestas a preguntas.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Respuestas a preguntas"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a6f3b93152516d64",
+    "type": "split",
+    "children": [
+      {
+        "id": "9be45135b2193e9c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7c4666868e7920f0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "8f8e4749e38f7ca5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "7830c4b24a9abb6b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "aec92014c95cf171",
+    "type": "split",
+    "children": [
+      {
+        "id": "af09c64363a23b5b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "538512408b8e599e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Respuestas a preguntas.pdf",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes"
+            }
+          },
+          {
+            "id": "af3a3df14481856c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Respuestas a preguntas.pdf",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes"
+            }
+          },
+          {
+            "id": "1229344aa030882d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "6d1215766a8c6720",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas las propiedades"
+            }
+          },
+          {
+            "id": "24420df30c813079",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Respuestas a preguntas.pdf",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false
+    }
+  },
+  "active": "9d378b537ce043de",
+  "lastOpenFiles": [
+    "entregable-2-cheapest-api.zip",
+    "zilVCHoV",
+    "dist/tsconfig.build.tsbuildinfo",
+    "dist/main.d.ts",
+    "dist/main.js",
+    "dist/main.js.map",
+    "dist/app.module.d.ts",
+    "dist/app.module.js",
+    "dist/app.module.js.map",
+    "dist/ventas/ventas.module.d.ts",
+    "dist/ventas/ventas.module.js",
+    "Respuestas a preguntas.md"
+  ]
+}
