@@ -56,6 +56,10 @@ volumen, zonas densas y productos populares.
 | Pareto 80/20 | GET productos disponibles | Smoke | 2 | 5 | 5 | 4.047 | 84 | 84 | 1.24 | 0.00 | `resultados/jmeter/get/smoke/pareto_get_smoke_run02.jtl` | Validación correcta; 5 de 5 solicitudes exitosas. |
 | Pareto 80/20 | GET productos disponibles | Smoke | 3 | 5 | 5 | 4.024 | 74 | 74 | 1.24 | 0.00 | `resultados/jmeter/get/smoke/pareto_get_smoke_run03.jtl` | Validación correcta; 5 de 5 solicitudes exitosas. |
 | Pareto 80/20 | GET productos disponibles | Smoke | 4 | 5 | 5 | 4.034 | 79 | 79 | 1.24 | 0.00 | `resultados/jmeter/get/smoke/pareto_get_smoke_run04.jtl` | Validación correcta; 5 de 5 solicitudes exitosas. |
+| Pareto 80/20 | GET productos disponibles | Baja | 1 | 30 | 10 | 9.707 | 75 | 81 | 3.09 | 0.00 | `resultados/jmeter/get/baja/pareto_get_baja_run01.jtl` | 30 de 30 solicitudes exitosas; comportamiento estable. |
+| Pareto 80/20 | GET productos disponibles | Baja | 2 | 30 | 10 | 9.704 | 78 | 78 | 3.09 | 0.00 | `resultados/jmeter/get/baja/pareto_get_baja_run02.jtl` | 30 de 30 solicitudes exitosas; comportamiento estable. |
+| Pareto 80/20 | GET productos disponibles | Baja | 3 | 30 | 10 | 9.703 | 73 | 74 | 3.09 | 0.00 | `resultados/jmeter/get/baja/pareto_get_baja_run03.jtl` | 30 de 30 solicitudes exitosas; comportamiento estable. |
+| Pareto 80/20 | GET productos disponibles | Baja | 4 | 30 | 10 | 9.704 | 72 | 72 | 3.09 | 0.00 | `resultados/jmeter/get/baja/pareto_get_baja_run04.jtl` | 30 de 30 solicitudes exitosas; comportamiento estable. |
 
 ## Incidencias y decisiones
 
