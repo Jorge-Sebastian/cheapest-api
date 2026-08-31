@@ -64,6 +64,14 @@ volumen, zonas densas y productos populares.
 | Pareto 80/20 | GET productos disponibles | Media | 2 | 100 | 20 | 19.854 | 69 | 74 | 5.04 | 0.00 | `resultados/jmeter/get/media/pareto_get_media_run02.jtl` | 100 de 100 solicitudes exitosas; comportamiento estable. |
 | Pareto 80/20 | GET productos disponibles | Media | 3 | 100 | 20 | 19.842 | 65 | 71 | 5.04 | 0.00 | `resultados/jmeter/get/media/pareto_get_media_run03.jtl` | 100 de 100 solicitudes exitosas; comportamiento estable. |
 | Pareto 80/20 | GET productos disponibles | Media | 4 | 100 | 20 | 19.842 | 67 | 70 | 5.04 | 0.00 | `resultados/jmeter/get/media/pareto_get_media_run04.jtl` | 100 de 100 solicitudes exitosas; comportamiento estable. |
+| Pareto 80/20 | GET productos disponibles | Operación normal | 1 | 450 | 50 | 49.897 | 56 | 59 | 9.02 | 0.00 | `resultados/jmeter/get/normal/pareto_get_normal_run01.jtl` | Cumple ASR 1; p99 menor que 1000 ms. |
+| Pareto 80/20 | GET productos disponibles | Operación normal | 2 | 450 | 50 | 49.861 | 54 | 59 | 9.03 | 0.00 | `resultados/jmeter/get/normal/pareto_get_normal_run02.jtl` | Cumple ASR 1; p99 menor que 1000 ms. |
+| Pareto 80/20 | GET productos disponibles | Operación normal | 3 | 450 | 50 | 49.864 | 57 | 64 | 9.02 | 0.00 | `resultados/jmeter/get/normal/pareto_get_normal_run03.jtl` | Cumple ASR 1; p99 menor que 1000 ms. |
+| Pareto 80/20 | GET productos disponibles | Operación normal | 4 | 450 | 50 | 49.859 | 56 | 60 | 9.03 | 0.00 | `resultados/jmeter/get/normal/pareto_get_normal_run04.jtl` | Cumple ASR 1; p99 menor que 1000 ms. |
+| Pareto 80/20 | GET productos disponibles | Operación normal | 5 | 450 | 50 | 49.886 | 56 | 59 | 9.02 | 0.00 | `resultados/jmeter/get/normal/pareto_get_normal_run05.jtl` | Cumple ASR 1; p99 menor que 1000 ms. |
+| Pareto 80/20 | GET productos disponibles | Operación normal | 6 | 450 | 50 | 49.867 | 56 | 57 | 9.02 | 0.00 | `resultados/jmeter/get/normal/pareto_get_normal_run06.jtl` | Cumple ASR 1; p99 menor que 1000 ms. |
+| Pareto 80/20 | GET productos disponibles | Operación normal | 7 | 450 | 50 | 49.889 | 55 | 61 | 9.02 | 0.00 | `resultados/jmeter/get/normal/pareto_get_normal_run07.jtl` | Cumple ASR 1; p99 menor que 1000 ms. |
+| Pareto 80/20 | GET productos disponibles | Operación normal | 8 | 450 | 50 | 49.864 | 56 | 58 | 9.02 | 0.00 | `resultados/jmeter/get/normal/pareto_get_normal_run08.jtl` | Cumple ASR 1; p99 menor que 1000 ms. |
 
 ## Incidencias y decisiones
 
