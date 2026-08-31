@@ -76,6 +76,10 @@ volumen, zonas densas y productos populares.
 | Pareto 80/20 | GET productos disponibles | Alta | 2 | 1500 | 75 | 75.011 | 59.70 | 62.61 | 20.00 | 0.00 | `resultados/python/get/alta/pareto_get_alta_run02.csv` | Cumple ASR 1; ejecutor Python, una solicitud por usuario. |
 | Pareto 80/20 | GET productos disponibles | Alta | 3 | 1500 | 75 | 75.004 | 59.66 | 62.98 | 20.00 | 0.00 | `resultados/python/get/alta/pareto_get_alta_run03.csv` | Cumple ASR 1; ejecutor Python, una solicitud por usuario. |
 | Pareto 80/20 | GET productos disponibles | Alta | 4 | 1500 | 75 | 75.007 | 60.14 | 62.87 | 20.00 | 0.00 | `resultados/python/get/alta/pareto_get_alta_run04.csv` | Cumple ASR 1; ejecutor Python, una solicitud por usuario. |
+| Pareto 80/20 | GET productos disponibles | Muy alta | 1 | 3000 | 100 | 100.035 | 65.52 | 69.07 | 29.99 | 0.00 | `resultados/python/get/muy-alta/pareto_get_muy_alta_run01.csv` | Cumple ASR 1; no se observa punto de inflexión. |
+| Pareto 80/20 | GET productos disponibles | Muy alta | 2 | 3000 | 100 | 100.028 | 64.89 | 68.17 | 29.99 | 0.00 | `resultados/python/get/muy-alta/pareto_get_muy_alta_run02.csv` | Cumple ASR 1; no se observa punto de inflexión. |
+| Pareto 80/20 | GET productos disponibles | Muy alta | 3 | 3000 | 100 | 100.029 | 64.57 | 67.64 | 29.99 | 0.00 | `resultados/python/get/muy-alta/pareto_get_muy_alta_run03.csv` | Cumple ASR 1; no se observa punto de inflexión. |
+| Pareto 80/20 | GET productos disponibles | Muy alta | 4 | 3000 | 100 | 100.032 | 64.39 | 68.50 | 29.99 | 0.00 | `resultados/python/get/muy-alta/pareto_get_muy_alta_run04.csv` | Cumple ASR 1; no se observa punto de inflexión. |
 
 ## Incidencias y decisiones
 
