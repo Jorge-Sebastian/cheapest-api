@@ -1,6 +1,4 @@
 load:
-  # Escenario principal del laboratorio: actividad no uniforme 80/20.
-  # Los mismos totales se conservan en la configuración uniforme de control.
   tiendas: 3000
   zonas: 10
 
@@ -9,7 +7,6 @@ load:
     peso_cabeza: 0.8
     fraccion_cabeza: 0.2
 
-  # Logística
   productos: 1200
   catalogos: 3000
   catalogos_productos: 600000
@@ -20,12 +17,10 @@ load:
   disponibilidad_zona: 600000
   notas_credito: 5000
 
-  # Inventario
   items_inventario: 300000
   registros_compra_producto_tienda: 300000
   registros_venta_producto_tienda: 600000
 
-  # Ventas
   productos_externos: 300
   ventas: 150000
   items_venta: 600000
