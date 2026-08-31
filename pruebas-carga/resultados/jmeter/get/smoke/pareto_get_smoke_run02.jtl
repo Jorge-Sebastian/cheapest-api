@@ -1,0 +1,6 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1788142817396,84,GET productos disponibles,200,OK,GET - Grupo de usuarios 1-1,text,true,,3144,219,1,1,http://localhost:3000/logistics/tenderos/productos-disponibles?tiendaId=bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb&zona=Zona+Norte,83,0,7
+1788142818378,72,GET productos disponibles,200,OK,GET - Grupo de usuarios 1-2,text,true,,3144,219,1,1,http://localhost:3000/logistics/tenderos/productos-disponibles?tiendaId=bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb&zona=Zona+Norte,72,0,0
+1788142819374,71,GET productos disponibles,200,OK,GET - Grupo de usuarios 1-3,text,true,,3144,219,1,1,http://localhost:3000/logistics/tenderos/productos-disponibles?tiendaId=bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb&zona=Zona+Norte,71,0,0
+1788142820377,57,GET productos disponibles,200,OK,GET - Grupo de usuarios 1-4,text,true,,3144,219,1,1,http://localhost:3000/logistics/tenderos/productos-disponibles?tiendaId=bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb&zona=Zona+Norte,57,0,0
+1788142821374,69,GET productos disponibles,200,OK,GET - Grupo de usuarios 1-5,text,true,,3144,219,1,1,http://localhost:3000/logistics/tenderos/productos-disponibles?tiendaId=bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb&zona=Zona+Norte,69,0,1

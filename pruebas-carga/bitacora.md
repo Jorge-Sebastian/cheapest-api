@@ -52,6 +52,10 @@ volumen, zonas densas y productos populares.
 
 | Distribución | Endpoint | Escenario | Corrida | Usuarios | Ramp-up (s) | Duración (s) | p95 (ms) | p99 (ms) | Throughput (req/s) | Error (%) | Archivo | Observaciones |
 | --- | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- | --- |
+| Pareto 80/20 | GET productos disponibles | Smoke | 1 | 5 | 5 | 4.010 | 101 | 101 | 1.25 | 0.00 | `resultados/jmeter/get/smoke/pareto_get_smoke_run01.jtl` | Validación correcta; 5 de 5 solicitudes exitosas. |
+| Pareto 80/20 | GET productos disponibles | Smoke | 2 | 5 | 5 | 4.047 | 84 | 84 | 1.24 | 0.00 | `resultados/jmeter/get/smoke/pareto_get_smoke_run02.jtl` | Validación correcta; 5 de 5 solicitudes exitosas. |
+| Pareto 80/20 | GET productos disponibles | Smoke | 3 | 5 | 5 | 4.024 | 74 | 74 | 1.24 | 0.00 | `resultados/jmeter/get/smoke/pareto_get_smoke_run03.jtl` | Validación correcta; 5 de 5 solicitudes exitosas. |
+| Pareto 80/20 | GET productos disponibles | Smoke | 4 | 5 | 5 | 4.034 | 79 | 79 | 1.24 | 0.00 | `resultados/jmeter/get/smoke/pareto_get_smoke_run04.jtl` | Validación correcta; 5 de 5 solicitudes exitosas. |
 
 ## Incidencias y decisiones
 
