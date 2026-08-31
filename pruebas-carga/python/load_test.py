@@ -40,6 +40,12 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--users", required=True, type=int, help="Concurrencia máxima")
     parser.add_argument("--ramp-up", required=True, type=float, help="Ramp-up en segundos")
     parser.add_argument("--duration", required=True, type=float, help="Duración total en segundos")
+    parser.add_argument(
+        "--iterations",
+        type=int,
+        default=0,
+        help="Solicitudes por usuario; 0 repite hasta completar duration",
+    )
     parser.add_argument("--output", required=True, type=Path, help="CSV de salida")
     parser.add_argument("--base-url", default="http://localhost:3000")
     parser.add_argument("--body", type=Path, help="Plantilla JSON obligatoria para POST")
@@ -47,7 +53,13 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--zona", default="Zona Norte")
     parser.add_argument("--timeout", type=float, default=10.0, help="Timeout por solicitud")
     args = parser.parse_args()
-    if args.users <= 0 or args.ramp_up < 0 or args.duration <= 0 or args.timeout <= 0:
+    if (
+        args.users <= 0
+        or args.ramp_up < 0
+        or args.duration <= 0
+        or args.timeout <= 0
+        or args.iterations < 0
+    ):
         parser.error("users y duration deben ser positivos; ramp-up no puede ser negativo")
     if args.endpoint == "POST" and args.body is None:
         parser.error("--body es obligatorio para POST")
@@ -115,8 +127,14 @@ async def virtual_user(
 ) -> None:
     delay = args.ramp_up * user_id / args.users
     await asyncio.sleep(delay)
-    while time.perf_counter() < deadline:
-        results.append(await request_once(session, args.endpoint, url, body_template))
+    if args.iterations:
+        for _ in range(args.iterations):
+            if time.perf_counter() >= deadline:
+                break
+            results.append(await request_once(session, args.endpoint, url, body_template))
+    else:
+        while time.perf_counter() < deadline:
+            results.append(await request_once(session, args.endpoint, url, body_template))
 
 
 async def run(args: argparse.Namespace) -> tuple[list[Result], float]:

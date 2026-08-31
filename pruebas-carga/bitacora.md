@@ -72,6 +72,10 @@ volumen, zonas densas y productos populares.
 | Pareto 80/20 | GET productos disponibles | Operación normal | 6 | 450 | 50 | 49.867 | 56 | 57 | 9.02 | 0.00 | `resultados/jmeter/get/normal/pareto_get_normal_run06.jtl` | Cumple ASR 1; p99 menor que 1000 ms. |
 | Pareto 80/20 | GET productos disponibles | Operación normal | 7 | 450 | 50 | 49.889 | 55 | 61 | 9.02 | 0.00 | `resultados/jmeter/get/normal/pareto_get_normal_run07.jtl` | Cumple ASR 1; p99 menor que 1000 ms. |
 | Pareto 80/20 | GET productos disponibles | Operación normal | 8 | 450 | 50 | 49.864 | 56 | 58 | 9.02 | 0.00 | `resultados/jmeter/get/normal/pareto_get_normal_run08.jtl` | Cumple ASR 1; p99 menor que 1000 ms. |
+| Pareto 80/20 | GET productos disponibles | Alta | 1 | 1500 | 75 | 75.016 | 60.16 | 63.75 | 20.00 | 0.00 | `resultados/python/get/alta/pareto_get_alta_run01.csv` | Cumple ASR 1; ejecutor Python, una solicitud por usuario. |
+| Pareto 80/20 | GET productos disponibles | Alta | 2 | 1500 | 75 | 75.011 | 59.70 | 62.61 | 20.00 | 0.00 | `resultados/python/get/alta/pareto_get_alta_run02.csv` | Cumple ASR 1; ejecutor Python, una solicitud por usuario. |
+| Pareto 80/20 | GET productos disponibles | Alta | 3 | 1500 | 75 | 75.004 | 59.66 | 62.98 | 20.00 | 0.00 | `resultados/python/get/alta/pareto_get_alta_run03.csv` | Cumple ASR 1; ejecutor Python, una solicitud por usuario. |
+| Pareto 80/20 | GET productos disponibles | Alta | 4 | 1500 | 75 | 75.007 | 60.14 | 62.87 | 20.00 | 0.00 | `resultados/python/get/alta/pareto_get_alta_run04.csv` | Cumple ASR 1; ejecutor Python, una solicitud por usuario. |
 
 ## Incidencias y decisiones
 

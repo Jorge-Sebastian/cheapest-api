@@ -22,13 +22,17 @@ La API y PostgreSQL deben estar activos antes de cada corrida.
 - `--users`: concurrencia máxima.
 - `--ramp-up`: segundos durante los que se incorporan usuarios gradualmente.
 - `--duration`: duración total de la prueba, incluyendo el ramp-up.
+- `--iterations`: solicitudes por usuario; `0` mantiene carga hasta finalizar
+  la duración y `1` reproduce los escenarios de la matriz del laboratorio.
 - `--output`: CSV único de la corrida; nunca se sobrescribe.
 - `--body`: plantilla JSON obligatoria para POST.
 - `--base-url`, `--timeout`, `--tienda-id` y `--zona`: ajustes opcionales.
 
-Cada usuario realiza solicitudes sucesivas desde su incorporación hasta el fin
-de la duración. Por eso `duration` debe ser mayor que `ramp-up`, permitiendo un
-periodo de carga sostenida después de incorporar al último usuario.
+Con `--iterations 0`, cada usuario realiza solicitudes sucesivas desde su
+incorporación hasta el fin de la duración. Con `--iterations 1`, cada usuario
+realiza una solicitud; así, 1500 usuarios distribuidos en 75 segundos producen
+el objetivo de 20 req/s de la matriz. `duration` funciona como límite máximo y
+debe ser ligeramente mayor que el ramp-up.
 
 ## Ejemplos de validación
 
