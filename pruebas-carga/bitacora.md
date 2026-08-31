@@ -80,6 +80,10 @@ volumen, zonas densas y productos populares.
 | Pareto 80/20 | GET productos disponibles | Muy alta | 2 | 3000 | 100 | 100.028 | 64.89 | 68.17 | 29.99 | 0.00 | `resultados/python/get/muy-alta/pareto_get_muy_alta_run02.csv` | Cumple ASR 1; no se observa punto de inflexión. |
 | Pareto 80/20 | GET productos disponibles | Muy alta | 3 | 3000 | 100 | 100.029 | 64.57 | 67.64 | 29.99 | 0.00 | `resultados/python/get/muy-alta/pareto_get_muy_alta_run03.csv` | Cumple ASR 1; no se observa punto de inflexión. |
 | Pareto 80/20 | GET productos disponibles | Muy alta | 4 | 3000 | 100 | 100.032 | 64.39 | 68.50 | 29.99 | 0.00 | `resultados/python/get/muy-alta/pareto_get_muy_alta_run04.csv` | Cumple ASR 1; no se observa punto de inflexión. |
+| Pareto 80/20 | GET productos disponibles | Estrés | 1 | 7500 | 150 | 150.063 | 76.62 | 79.76 | 49.98 | 0.00 | `resultados/python/get/estres/pareto_get_estres_run01.csv` | Cumple ASR 1; 7.500 solicitudes exitosas. |
+| Pareto 80/20 | GET productos disponibles | Estrés | 2 | 7500 | 150 | 150.064 | 74.57 | 78.50 | 49.98 | 0.00 | `resultados/python/get/estres/pareto_get_estres_run02.csv` | Cumple ASR 1; 7.500 solicitudes exitosas. |
+| Pareto 80/20 | GET productos disponibles | Estrés | 3 | 7500 | 150 | 150.065 | 78.61 | 81.68 | 49.98 | 0.00 | `resultados/python/get/estres/pareto_get_estres_run03.csv` | Cumple ASR 1; 7.500 solicitudes exitosas. |
+| Pareto 80/20 | GET productos disponibles | Estrés | 4 | 7500 | 150 | 150.062 | 73.84 | 77.18 | 49.98 | 0.00 | `resultados/python/get/estres/pareto_get_estres_run04.csv` | Cumple ASR 1; 7.500 solicitudes exitosas. |
 
 ## Incidencias y decisiones
 
