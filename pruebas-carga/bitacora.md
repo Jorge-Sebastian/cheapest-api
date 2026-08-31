@@ -60,6 +60,10 @@ volumen, zonas densas y productos populares.
 | Pareto 80/20 | GET productos disponibles | Baja | 2 | 30 | 10 | 9.704 | 78 | 78 | 3.09 | 0.00 | `resultados/jmeter/get/baja/pareto_get_baja_run02.jtl` | 30 de 30 solicitudes exitosas; comportamiento estable. |
 | Pareto 80/20 | GET productos disponibles | Baja | 3 | 30 | 10 | 9.703 | 73 | 74 | 3.09 | 0.00 | `resultados/jmeter/get/baja/pareto_get_baja_run03.jtl` | 30 de 30 solicitudes exitosas; comportamiento estable. |
 | Pareto 80/20 | GET productos disponibles | Baja | 4 | 30 | 10 | 9.704 | 72 | 72 | 3.09 | 0.00 | `resultados/jmeter/get/baja/pareto_get_baja_run04.jtl` | 30 de 30 solicitudes exitosas; comportamiento estable. |
+| Pareto 80/20 | GET productos disponibles | Media | 1 | 100 | 20 | 19.850 | 61 | 67 | 5.04 | 0.00 | `resultados/jmeter/get/media/pareto_get_media_run01.jtl` | 100 de 100 solicitudes exitosas; comportamiento estable. |
+| Pareto 80/20 | GET productos disponibles | Media | 2 | 100 | 20 | 19.854 | 69 | 74 | 5.04 | 0.00 | `resultados/jmeter/get/media/pareto_get_media_run02.jtl` | 100 de 100 solicitudes exitosas; comportamiento estable. |
+| Pareto 80/20 | GET productos disponibles | Media | 3 | 100 | 20 | 19.842 | 65 | 71 | 5.04 | 0.00 | `resultados/jmeter/get/media/pareto_get_media_run03.jtl` | 100 de 100 solicitudes exitosas; comportamiento estable. |
+| Pareto 80/20 | GET productos disponibles | Media | 4 | 100 | 20 | 19.842 | 67 | 70 | 5.04 | 0.00 | `resultados/jmeter/get/media/pareto_get_media_run04.jtl` | 100 de 100 solicitudes exitosas; comportamiento estable. |
 
 ## Incidencias y decisiones
 
