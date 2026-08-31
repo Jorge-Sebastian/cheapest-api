@@ -83,3 +83,14 @@ de configuración o condición externa que pueda afectar la comparación.
   y 0,120183 segundos. Es un control funcional, no una corrida oficial.
 - La tabla `promocion_tiendas` contiene 241 filas para 240 promociones porque
   `seed.sql` aporta una asociación base adicional.
+- Primera validación del ejecutor Python descartada: la API estaba detenida y
+  las 42.223 solicitudes fallaron por conexión. A partir de esta incidencia se
+  agregó una verificación previa de `/health` para abortar antes de generar
+  carga cuando el sistema bajo prueba no esté disponible. El CSV inválido se
+  conserva localmente, pero se excluye de Git debido a que ocupa 15 MB; la
+  captura `25a` documenta la incidencia.
+- Validación funcional GET del ejecutor Python: 327 solicitudes en 5,061 s,
+  64,61 req/s, p95 de 73,48 ms, p99 de 78,10 ms y 0 % de errores.
+- Validación funcional POST con cuerpo de 24 ítems: 227 solicitudes en 3,023 s,
+  75,10 req/s, p95 de 26,76 ms, p99 de 29,28 ms y 0 % de errores. Todas las
+  respuestas inspeccionadas en el CSV fueron HTTP 201.
